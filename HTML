@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agro Forte, Futuro Sustentável</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#ffffff;
+    color:#111;
+}
+
+header{
+    background:linear-gradient(to right,#0b5d1e,#1d8f3d);
+    color:white;
+    text-align:center;
+    padding:50px 20px;
+}
+
+header h1{
+    font-size:3rem;
+}
+
+header p{
+    margin-top:15px;
+    font-size:1.2rem;
+}
+
+nav{
+    background:black;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+section{
+    padding:50px 10%;
+}
+
+.titulo{
+    color:#0b5d1e;
+    margin-bottom:20px;
+}
+
+.card{
+    background:#f5f5f5;
+    padding:25px;
+    border-left:8px solid #0b5d1e;
+    margin-top:20px;
+    border-radius:8px;
+}
+
+.faep{
+    background:#e8f5e9;
+}
+
+.quiz{
+    background:#f8f8f8;
+    border-radius:10px;
+    padding:30px;
+}
+
+.pergunta{
+    margin-bottom:25px;
+}
+
+button{
+    background:#0b5d1e;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+button:hover{
+    background:#087218;
+}
+
+#resultado{
+    margin-top:20px;
+    font-size:22px;
+    font-weight:bold;
+}
+
+footer{
+    background:black;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>🌱 Agro Forte, Futuro Sustentável</h1>
+    <p>Equilíbrio entre Produção e Meio Ambiente</p>
+</header>
+
+<nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#sustentabilidade">Sustentabilidade</a>
+    <a href="#faep">FAEP</a>
+    <a href="#quiz">Quiz</a>
+</nav>
+
+<section id="sobre">
+    <h2 class="titulo">O Agro Forte e o Futuro Sustentável</h2>
+
+    <div class="card">
+        <p>
+            O agronegócio é um dos pilares da economia brasileira e possui
+            papel fundamental na produção de alimentos, geração de empregos
+            e desenvolvimento das comunidades rurais.
+        </p>
+
+        <br>
+
+        <p>
+            O conceito de <strong>Agro Forte, Futuro Sustentável</strong>
+            busca promover o crescimento da produção agrícola aliado à
+            preservação dos recursos naturais, garantindo qualidade de vida
+            para as gerações atuais e futuras.
+        </p>
+    </div>
+</section>
+
+<section id="sustentabilidade">
+    <h2 class="titulo">Produção e Meio Ambiente em Equilíbrio</h2>
+
+    <div class="card">
+        <ul>
+            <li>🌿 Uso consciente da água.</li>
+            <li>🌱 Conservação do solo.</li>
+            <li>🚜 Tecnologias agrícolas sustentáveis.</li>
+            <li>🌳 Preservação de matas e biodiversidade.</li>
+            <li>♻️ Redução de desperdícios e reciclagem.</li>
+            <li>☀️ Uso de energias renováveis.</li>
+        </ul>
+    </div>
+</section>
+
+<section id="faep">
+    <h2 class="titulo">A FAEP</h2>
+
+    <div class="card faep">
+        <p>
+            A FAEP (Federação da Agricultura do Estado do Paraná)
+            representa os produtores rurais paranaenses e atua na defesa
+            dos interesses do setor agropecuário.
+        </p>
+
+        <br>
+
+        <p>
+            A entidade promove capacitação, inovação, sustentabilidade,
+            desenvolvimento rural e fortalecimento da produção agrícola,
+            contribuindo para um agro cada vez mais moderno e responsável.
+        </p>
+    </div>
+</section>
+
+<section id="quiz">
+    <h2 class="titulo">Quiz: Teste seus Conhecimentos</h2>
+
+    <div class="quiz">
+
+        <div class="pergunta">
+            <p><strong>1. O que significa um agro sustentável?</strong></p>
+            <input type="radio" name="q1" value="1"> Produzir preservando os recursos naturais<br>
+            <input type="radio" name="q1" value="0"> Produzir sem preocupação ambiental<br>
+            <input type="radio" name="q1" value="0"> Apenas aumentar a produção
+        </div>
+
+        <div class="pergunta">
+            <p><strong>2. Qual prática ajuda na preservação ambiental?</strong></p>
+            <input type="radio" name="q2" value="1"> Conservação do solo<br>
+            <input type="radio" name="q2" value="0"> Desmatamento irregular<br>
+            <input type="radio" name="q2" value="0"> Queimadas sem controle
+        </div>
+
+        <div class="pergunta">
+            <p><strong>3. Qual é um dos objetivos da FAEP?</strong></p>
+            <input type="radio" name="q3" value="1"> Fortalecer o setor agropecuário<br>
+            <input type="radio" name="q3" value="0"> Impedir a inovação no campo<br>
+            <input type="radio" name="q3" value="0"> Reduzir a produção agrícola
+        </div>
+
+        <div class="pergunta">
+            <p><strong>4. O uso consciente da água é importante porque:</strong></p>
+            <input type="radio" name="q4" value="1"> Preserva recursos naturais<br>
+            <input type="radio" name="q4" value="0"> Não possui impacto ambiental<br>
+            <input type="radio" name="q4" value="0"> Aumenta o desperdício
+        </div>
+
+        <div class="pergunta">
+            <p><strong>5. O equilíbrio entre produção e meio ambiente garante:</strong></p>
+            <input type="radio" name="q5" value="1"> Desenvolvimento sustentável<br>
+            <input type="radio" name="q5" value="0"> Degradação ambiental<br>
+            <input type="radio" name="q5" value="0"> Escassez de recursos
+        </div>
+
+        <button onclick="corrigirQuiz()">Ver Resultado</button>
+
+        <div id="resultado"></div>
+
+    </div>
+</section>
+
+<footer>
+    <p>🌱 Agro Forte, Futuro Sustentável | Equilíbrio entre Produção e Meio Ambiente</p>
+</footer>
+
+<script>
+function corrigirQuiz(){
+
+    let total = 0;
+
+    const respostas = document.querySelectorAll('input[type="radio"]:checked');
+
+    respostas.forEach(resposta=>{
+        total += Number(resposta.value);
+    });
+
+    let mensagem = "";
+
+    if(total == 5){
+        mensagem = "🏆 Excelente! Você domina o tema!";
+    }
+    else if(total >= 3){
+        mensagem = "✅ Muito bem! Você possui bons conhecimentos.";
+    }
+    else{
+        mensagem = "📚 Continue estudando sobre sustentabilidade no agro.";
+    }
+
+    document.getElementById("resultado").innerHTML =
+    "Você acertou " + total + " de 5 perguntas.<br>" + mensagem;
+}
+</script>
+
+</body>
+</html>
